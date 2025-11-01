@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;    
+
+}
+.container{
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 15px 35px rgba(30, 243, 58, 10);
+    max-width: 500px;
+    width: 100%;
+}
+h1 {
+    color: #333;
+    text-align:center;
+    margin-bottom: 10px;
+    font-size: 35px;
+
+
+}
+.subtitle{
+    color:#d6268d;
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align:center;
+
+
+}
+
+.input-group{
+    margin-bottom: 25px;
+}
+
+label{
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 600;
+    color: #555;
+}
+
+input[type="number"]{
+    padding: 12px 15px;
+    width:100%;
+    border : 2px solid rgb(0, 255, 34);
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+input[type="number"]:focus{
+    outline: none;
+    border-color: #667eea;
+
+}
+.checkbox-group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+
+}
+.checkbox-group input[type="checkbox"]{
+    width:20px;
+    height:20px;
+    accent-color: blue;
+}
+
+.checkbox-group label{
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    color: #333 
+    
+}
+
+button{
+    width:100%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+
+}
+.result{
+    margin-top: 30px;
+    padding: 25px;
+    background:  #f8f9fa;
+    border-radius: 10px;
+    border-left: 5px solid #667eea;
+}
+    
+.result h3{
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.result-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #e9ecef;
+
+}
+
+.result-item:last-child{
+    border-bottom: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2d3748;
+}
+.result-label {
+    color: #666;
+
+}
+
+.result-value{
+    color: #333;
+    font-weight:500;
+
+}
+.discount-badge{
+    background: #48bb48;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.no-discount{
+    background: #d61515;
+
+}
+
+.test-cases{
+    margin-top: 30px;
+    padding: 20px;
+    background: #c8dac8;
+}
+
+.test-cases h3{
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.test-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+
+.test-btn{
+    background: #4a5568;
+    padding: 10px;
+    border-radius: 6px;
+    color: #c8dac8;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.test-btn:hover{
+    background: #2d3748;
+}
+
+
